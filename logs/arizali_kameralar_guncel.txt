@@ -1,0 +1,15 @@
+================================================================================
+             ANKARA METRO - ANLIK ARIZALI KAMERA DURUM RAPORU
+             Rapor Tarihi: 2026-09-09 18:12:38
+================================================================================
+Toplam İzlenen Kamera : 6
+Aktif Çalışan Kamera  : 0
+Kritik Arızalı Kamera : 0
+Uyarıdaki Kameralar   : 6
+--------------------------------------------------------------------------------
+KRİTİK ARIZALI KAMERALAR LİSTESİ:
+--------------------------------------------------------------------------------
+  Tebrikler! Şu anda sistemde hiçbir arızalı kamera bulunmuyor. Tüm sistem aktif.
+--------------------------------------------------------------------------------
+Not: Bu dosya her tarama döngüsünde otomatik olarak güncellenir.
+================================================================================

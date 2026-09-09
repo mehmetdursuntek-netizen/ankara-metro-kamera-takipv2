@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Segoe UI" ss:Size="10" ss:Color="#0F172A"/>
+  </Style>
+  <Style ss:ID="MainTitle">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Segoe UI" ss:Size="14" ss:Bold="1" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#0F172A" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="SubTitle">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Segoe UI" ss:Size="9" ss:Italic="1" ss:Color="#CBD5E1"/>
+   <Interior ss:Color="#1E293B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="ColHeader">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#0369A1"/>
+   </Borders>
+   <Font ss:FontName="Segoe UI" ss:Size="10" ss:Bold="1" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#0284C7" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="RowFault">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#FCA5A5"/>
+   </Borders>
+   <Font ss:FontName="Segoe UI" ss:Size="10" ss:Color="#991B1B" ss:Bold="1"/>
+   <Interior ss:Color="#FEE2E2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="RowWarn">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#FCD34D"/>
+   </Borders>
+   <Font ss:FontName="Segoe UI" ss:Size="10" ss:Color="#92400E" ss:Bold="1"/>
+   <Interior ss:Color="#FEF3C7" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="RowOnline">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#86EFAC"/>
+   </Borders>
+   <Font ss:FontName="Segoe UI" ss:Size="10" ss:Color="#166534"/>
+   <Interior ss:Color="#DCFCE7" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="CenterCell">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Kamera Raporu">
+  <Table ss:DefaultRowHeight="20">
+   <Column ss:Width="50"/>
+   <Column ss:Width="120"/>
+   <Column ss:Width="140"/>
+   <Column ss:Width="90"/>
+   <Column ss:Width="80"/>
+   <Column ss:Width="90"/>
+   <Column ss:Width="180"/>
+   <Column ss:Width="130"/>
+   <Column ss:Width="100"/>
+   <Column ss:Width="280"/>
+   <Row ss:Height="30">
+    <Cell ss:MergeAcross="9" ss:StyleID="MainTitle"><Data ss:Type="String">ANKARA METRO - ARIZALI KAMERA RAPORU</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:MergeAcross="9" ss:StyleID="SubTitle"><Data ss:Type="String">Rapor Tarihi: 2026-09-09 17:56:21 | Toplam Listelenen Kamera: 6</Data></Cell>
+   </Row>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">S.No</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Kamera IP</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">İstasyon / Grup</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Durum</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Ping (ms)</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Hata Sayacı</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Arıza Türü</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Arıza Başlangıcı</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Son Kontrol</Data></Cell>
+    <Cell ss:StyleID="ColHeader"><Data ss:Type="String">Detaylı Teşhis / Hata Mesajı</Data></Cell>
+   </Row>
+   <Row ss:Height="22">
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">192.168.1.101</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Grupsuz</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">UYARI</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Zaman Aşımı</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">1/3</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ağ Bağlantısı Kesildi (Ping Yok)</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">2026-09-09 17:56:00</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">17:56:00</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ağ yanıtı yok (ICMP Ping başarısız/Erişilemez)</Data></Cell>
+   </Row>
+   <Row ss:Height="22">
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">192.168.1.102</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Grupsuz</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">UYARI</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Zaman Aşımı</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">1/3</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ağ Bağlantısı Kesildi (Ping Yok)</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">2026-09-09 17:56:00</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">17:56:00</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ağ yanıtı yok (ICMP Ping başarısız/Erişilemez)</Data></Cell>
+   </Row>
+   <Row ss:Height="22">
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">172.16.45.55</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Milli Kütüphane</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">UYARI</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Zaman Aşımı</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">1/3</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ağ Bağlantısı Kesildi (Ping Yok)</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">2026-09-09 17:56:00</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">17:56:00</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ağ yanıtı yok (ICMP Ping başarısız/Erişilemez)</Data></Cell>
+   </Row>
+   <Row ss:Height="22">
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">172.16.45.56</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Milli Kütüphane</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">UYARI</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Zaman Aşımı</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">1/3</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ağ Bağlantısı Kesildi (Ping Yok)</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">2026-09-09 17:56:00</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">17:56:00</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ağ yanıtı yok (ICMP Ping başarısız/Erişilemez)</Data></Cell>
+   </Row>
+   <Row ss:Height="22">
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">172.16.47.55</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ümitköy</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">UYARI</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Zaman Aşımı</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">1/3</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ağ Bağlantısı Kesildi (Ping Yok)</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">2026-09-09 17:56:00</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">17:56:00</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ağ yanıtı yok (ICMP Ping başarısız/Erişilemez)</Data></Cell>
+   </Row>
+   <Row ss:Height="22">
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">172.16.47.56</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ümitköy</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">UYARI</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Zaman Aşımı</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">1/3</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ağ Bağlantısı Kesildi (Ping Yok)</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">2026-09-09 17:56:00</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">17:56:00</Data></Cell>
+    <Cell ss:StyleID="RowWarn"><Data ss:Type="String">Ağ yanıtı yok (ICMP Ping başarısız/Erişilemez)</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,14 @@
+# Ankara Metro Pelco IP Kamera Örnek Listesi
+# Format 1: IP Adresi, Kamera Adı (Önerilen)
+# Format 2: IP Adresi (İsimsiz)
+# 172.16.45.x kameraları otomatik 'Milli Kütüphane' grubuna atanır.
+# 172.16.47.x kameraları otomatik 'Ümitköy' grubuna atanır.
+
+172.16.45.55, Turnike Giriş 1
+172.16.45.56, Peron Doğu
+172.16.45.101, Yürüyen Merdiven Altı
+172.16.47.55; Gişe Önü
+172.16.47.56 - Peron Batı
+172.16.47.102, Asansör İçi
+192.168.1.101, Teknik Oda
+192.168.1.102, Trafo Merkezi
