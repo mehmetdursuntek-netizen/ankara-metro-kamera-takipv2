@@ -66,3 +66,4 @@ Listeden kamera silmek son derece esnek ve kolaydır:
 - `logs/`:
   - `arizali_kameralar_guncel.txt`: Anlık arızalı kameraların canlı tek sayfalık özeti.
   - `kamera_ariza_YYYY_MM_DD.log`: Günlük temiz arıza ve kurtarma olayları.
+# kamerav3
